@@ -1,4 +1,4 @@
-const englishTexts = [
+export const englishTexts = [
   "The old oak tree stood sentinel at the edge of the forest, its gnarled branches reaching towards the sky. Beneath its leafy canopy, a sense of peace enveloped the clearing. The air was filled with the earthy scent of fallen leaves and the distant sound of birdsong. As the sun dipped below the horizon, casting long shadows across the forest floor, a feeling of calm washed over the land.",
 
   "In the heart of the city, amidst the hustle and bustle of everyday life, there lay a hidden oasis of tranquility. Tucked away down a narrow alleyway, the courtyard was a haven of greenery and solitude. Lush vines climbed the walls, their delicate tendrils reaching out towards the sun. The sound of trickling water filled the air, as a small fountain bubbled in the center of the courtyard.",
@@ -20,7 +20,7 @@ const englishTexts = [
   "In the heart of the forest, where the trees stood tall and proud and the undergrowth was thick and lush, there lay a hidden glade. Its floor was carpeted with moss and ferns, soft underfoot and cool to the touch. Sunlight filtered through the canopy above, dappling the ground in shifting patterns of light and shadow. As the birds sang their evening chorus, a sense of peace settled over the glade.",
 ];
 
-const spanishTexts = [
+export const spanishTexts = [
   "El sol se ponía detrás de las colinas, y la densa niebla otoñal descendía sobre el valle. Juan estaba junto a la ventana, su aliento empañando el cristal mientras observaba cómo el mundo exterior se desvanecía en la oscuridad. Se envolvió más apretado en su chal, sintiendo el frío penetrar en sus huesos. Eran noches como estas las que le hacían extrañar el calor del verano, los largos días llenos de sol y risas.",
 
   "Mientras contemplaba el paisaje brumoso, los recuerdos inundaban su mente. Recordaba correr por los campos con sus hermanos, persiguiéndose unos a otros y riendo hasta que les dolían los costados. Recordaba los picnics junto al río, el sabor de las fresas frescas en su lengua y el sonido del canto de los pájaros llenando el aire. Pero esos días habían quedado atrás, perdidos en el paso del tiempo.",
@@ -42,7 +42,7 @@ const spanishTexts = [
   "En el corazón del bosque, donde los árboles se alzaban altos y orgullosos y la maleza era espesa y exuberante, había una clara escondida. Su suelo estaba cubierto de musgo y helechos, suave bajo los pies y fresco al tacto. La luz del sol se filtraba a través del dosel de arriba, salpicando el suelo con patrones cambiantes de luz y sombra. Mientras los pájaros cantaban su coro vespertino, una sensación de paz se instalaba en la clara.",
 ];
 
-const russianTexts = [
+export const russianTexts = [
   "Солнце уже зашло за холмы, и плотный осенний туман опустился на долину. Иван стоял у окна, его дыхание затуманило стекло, когда он наблюдал, как мир снаружи исчезает во тьме. Он крепче обмотал плед вокруг плеч, чувствуя, как холод проникает в кости. Именно ночи, как эти, заставляли его скучать по теплу лета, длинные дни, наполненные солнцем и смехом.",
 
   "Пока он глядел на туманный пейзаж, его разум наполняли воспоминания. Он помнил, как бегал по полям со своими братьями, гоняясь друг за другом и смеясь до упаду. Он помнил пикники у реки, вкус свежих клубники на языке и звук птичьего щебета, наполняющий воздух. Но эти дни были позади, ушли со временем.",
@@ -62,7 +62,7 @@ const russianTexts = [
   "В самом сердце леса, где деревья стояли высоко и гордо, а подлесок был густым и пышным, лежала скрытая поляна. Ее пол был усыпан мхом и папоротниками, мягким под ногами и прохладным на ощупь. Солнечный свет проникал сквозь верхний ярус, создавая на полу меняющиеся узоры света и тени. Пока птицы пели свой вечерний хор, в поляне устанавливался покой.",
 ];
 
-const latvianTexts = [
+export const latvianTexts = [
   "Saulriets krāsoja debesis ar dzeltenu, oranžu un rozā krāsu, radaot burvīgu ainavu. Pēc aizvadītās dienas darba brīža šis miers bija īpaši iecerēts. Daba apkārt klusēja, un tikai putni dziedāja nelielas dziesmas. Es stāvēju uz savas mājas pagalma, baudot šo klusumu un mieru.",
 
   "Mežs bija kluss un mierīgs, tikai laši pār pludmali veidoja saviem krelles pamatīgus nospiedumus. Zem kājām plīvuroja ziemas sniegs, piekarsējot kājās un liekot atskatīties uz skaisto ainavu. Viens pats es staigāju pa šo kluso ainavu, sajūtot pilnīgu brīvību un mieru sirdī.",
