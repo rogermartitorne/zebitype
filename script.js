@@ -14,7 +14,7 @@ const $wpm = document.querySelector("h3");
 const $accuracy = document.querySelector("h3:nth-child(4)");
 const $btn = document.getElementById("btn");
 
-let INITIAL_TIME = 3;
+let INITIAL_TIME = 30;
 let words = [];
 let currentTime = INITIAL_TIME;
 let playing;
