@@ -1,0 +1,145 @@
+:root {
+  color-scheme: light dark;
+  --green: #00b755;
+  --yellow: #daaf38;
+  --red: #ca4754;
+  --black: #222;
+  --gray: #999;
+}
+
+body {
+  background: var(--black);
+  font-family: monospace;
+  display: grid;
+  place-content: center;
+  height: 85vh;
+  padding: 32px;
+}
+
+#game {
+  max-width: 1200px;
+}
+
+#game > time {
+  font-size: 24px;
+}
+
+#game > p {
+  font-size: 24px;
+}
+
+#results {
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button {
+  background: transparent;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  font-weight: 400;
+  opacity: 0.4;
+  margin: 0;
+  font-size: 16px;
+}
+
+h3 {
+  font-weight: 400;
+  color: var(--yellow);
+  margin: 0;
+  font-size: 24px;
+}
+
+input#typing {
+  z-index: -999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+nav {
+  width: 80vw;
+  border: 1px solid #333;
+  border-radius: 16px;
+  position: fixed;
+  bottom: 10px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+/* Hide the radio buttons */
+input[type="radio"] {
+  display: none;
+}
+
+/* Style the labels to look like buttons */
+label {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Darker color for checked labels */
+input[type="radio"]:checked + label {
+  background-color: #333;
+  color: #fff; /* Change text color for better visibility */
+}
+
+letter {
+  color: var(--gray);
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+letter.active::before {
+  content: "|";
+  color: var(--yellow);
+  position: absolute;
+  left: -60%;
+  animation: 1s blink infinite ease-in-out;
+}
+
+letter.correct {
+  color: var(--green);
+}
+
+letter.incorrect {
+  color: var(--red);
+}
+
+letter.active.is-last::before {
+  left: 65%;
+}
+
+word {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+
+word.marked {
+  border-color: var(--red);
+}
+
+@keyframes blink {
+  0%,
+  25% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 0;
+  }
+}
